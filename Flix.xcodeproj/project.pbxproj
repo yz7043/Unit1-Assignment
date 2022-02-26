@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		148AE90B27C9850000E527F7 /* launch_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 148AE90A27C9850000E527F7 /* launch_image@2x.png */; };
+		148AE90D27C986BC00E527F7 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148AE90C27C986BC00E527F7 /* MovieDetailsViewController.swift */; };
+		148AE90F27C9B7D200E527F7 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148AE90E27C9B7D200E527F7 /* MovieGridViewController.swift */; };
+		148AE91427C9D39A00E527F7 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148AE91327C9D39A00E527F7 /* MovieGridCell.swift */; };
 		14DE8A2B27C08AF3009CF6D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DE8A2A27C08AF3009CF6D8 /* AppDelegate.swift */; };
 		14DE8A2D27C08AF3009CF6D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DE8A2C27C08AF3009CF6D8 /* SceneDelegate.swift */; };
 		14DE8A2F27C08AF3009CF6D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DE8A2E27C08AF3009CF6D8 /* ViewController.swift */; };
@@ -18,7 +22,6 @@
 		14DE8A4E27C08AF4009CF6D8 /* FlixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DE8A4D27C08AF4009CF6D8 /* FlixUITestsLaunchTests.swift */; };
 		14DE8A5B27C0920E009CF6D8 /* icons8-camera-addon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 14DE8A5A27C0920E009CF6D8 /* icons8-camera-addon-64.png */; };
 		14DE8A5F27C0A2C9009CF6D8 /* MyMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DE8A5E27C0A2C9009CF6D8 /* MyMovieCell.swift */; };
-		14DE8A6227C0AECA009CF6D8 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 14DE8A6127C0AECA009CF6D8 /* AlamofireImage */; };
 		8B5B6CC1AADA7A1BF03AAAF6 /* Pods_FlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5EB42BCE3E8478E4524C1A /* Pods_FlixTests.framework */; };
 		BBA0194B8F38E0A29F119AB9 /* Pods_Flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3E94041F8952AB268097B1 /* Pods_Flix.framework */; };
 		D950DAFAB581671CB12DC369 /* Pods_Flix_FlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC55ECEEDD48CE6A39A44035 /* Pods_Flix_FlixUITests.framework */; };
@@ -42,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		148AE90A27C9850000E527F7 /* launch_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launch_image@2x.png"; path = "../../../iOS_flix_assets/launch_image@2x.png"; sourceTree = "<group>"; };
+		148AE90C27C986BC00E527F7 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		148AE90E27C9B7D200E527F7 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		148AE91327C9D39A00E527F7 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		14DE8A2727C08AF3009CF6D8 /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DE8A2A27C08AF3009CF6D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14DE8A2C27C08AF3009CF6D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DE8A6227C0AECA009CF6D8 /* AlamofireImage in Frameworks */,
 				BBA0194B8F38E0A29F119AB9 /* Pods_Flix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,6 +113,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		148AE91027C9B83800E527F7 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
 		14DE8A1E27C08AF3009CF6D8 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +145,8 @@
 		14DE8A2927C08AF3009CF6D8 /* Flix */ = {
 			isa = PBXGroup;
 			children = (
+				148AE91027C9B83800E527F7 /* imgs */,
+				148AE90A27C9850000E527F7 /* launch_image@2x.png */,
 				14DE8A2A27C08AF3009CF6D8 /* AppDelegate.swift */,
 				14DE8A2C27C08AF3009CF6D8 /* SceneDelegate.swift */,
 				14DE8A2E27C08AF3009CF6D8 /* ViewController.swift */,
@@ -141,6 +156,9 @@
 				14DE8A5A27C0920E009CF6D8 /* icons8-camera-addon-64.png */,
 				14DE8A3527C08AF4009CF6D8 /* LaunchScreen.storyboard */,
 				14DE8A3827C08AF4009CF6D8 /* Info.plist */,
+				148AE90C27C986BC00E527F7 /* MovieDetailsViewController.swift */,
+				148AE90E27C9B7D200E527F7 /* MovieGridViewController.swift */,
+				148AE91327C9D39A00E527F7 /* MovieGridCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -172,7 +190,6 @@
 				FFDCE295665A48BBF5509C0B /* Pods-FlixTests.debug.xcconfig */,
 				FB592F3AD1BB5CC38043D3C8 /* Pods-FlixTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -195,7 +212,6 @@
 			);
 			name = Flix;
 			packageProductDependencies = (
-				14DE8A6127C0AECA009CF6D8 /* AlamofireImage */,
 			);
 			productName = Flix;
 			productReference = 14DE8A2727C08AF3009CF6D8 /* Flix.app */;
@@ -273,7 +289,6 @@
 			);
 			mainGroup = 14DE8A1E27C08AF3009CF6D8;
 			packageReferences = (
-				14DE8A6027C0AECA009CF6D8 /* XCRemoteSwiftPackageReference "AlamofireImage.git" */,
 			);
 			productRefGroup = 14DE8A2827C08AF3009CF6D8 /* Products */;
 			projectDirPath = "";
@@ -291,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148AE90B27C9850000E527F7 /* launch_image@2x.png in Resources */,
 				14DE8A3727C08AF4009CF6D8 /* LaunchScreen.storyboard in Resources */,
 				14DE8A5B27C0920E009CF6D8 /* icons8-camera-addon-64.png in Resources */,
 				14DE8A3427C08AF4009CF6D8 /* Assets.xcassets in Resources */,
@@ -422,10 +438,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148AE90D27C986BC00E527F7 /* MovieDetailsViewController.swift in Sources */,
 				14DE8A2F27C08AF3009CF6D8 /* ViewController.swift in Sources */,
 				14DE8A2B27C08AF3009CF6D8 /* AppDelegate.swift in Sources */,
 				14DE8A5F27C0A2C9009CF6D8 /* MyMovieCell.swift in Sources */,
 				14DE8A2D27C08AF3009CF6D8 /* SceneDelegate.swift in Sources */,
+				148AE90F27C9B7D200E527F7 /* MovieGridViewController.swift in Sources */,
+				148AE91427C9D39A00E527F7 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,25 +796,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		14DE8A6027C0AECA009CF6D8 /* XCRemoteSwiftPackageReference "AlamofireImage.git" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		14DE8A6127C0AECA009CF6D8 /* AlamofireImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 14DE8A6027C0AECA009CF6D8 /* XCRemoteSwiftPackageReference "AlamofireImage.git" */;
-			productName = AlamofireImage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 14DE8A1F27C08AF3009CF6D8 /* Project object */;
 }
